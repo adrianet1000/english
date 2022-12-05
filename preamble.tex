@@ -1,0 +1,31 @@
+\documentclass[letterpaper]{article}
+\usepackage{amsmath,amssymb,mathtools,nccmath}
+\usepackage[colorlinks = true, urlcolor = blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{upquote} %Para evitar con las comillas en el ambiente de verbatim.
+
+\usepackage{float}
+\graphicspath{{img/}}
+
+\usepackage[margin = 2 cm]{geometry}
+
+%setting font
+
+\usepackage{mathspec}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setmonofont{Arial}
+\setmathsfont(Digits,Latin)[Numbers={Lining,Proportional}]{Arial}
+\usepackage{xcolor}
+\usepackage{sectsty}
+\sectionfont{\color{red}}  % sets colour of sections
+
+%\nofiles
+
+%\setlength{\parindent}{0cm}
+
+%color page number
+\let\oldthepage\thepage% Copy \thepage into \oldthepage
+\renewcommand{\thepage}{\color{white}\oldthepage}% Add colour to \page
+
